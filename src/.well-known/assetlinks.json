@@ -1,0 +1,11 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.groenendijk",
+        "sha256_cert_fingerprints":
+          ["87:8F:DA:E4:B3:3D:72:72:ED:68:F7:85:3C:82:0C:38:9A:55:AB:9D:DD:B1:C8:AB:B6:CE:4E:B4:01:8E:DA:81"]
+      }
+    }
+  ]
