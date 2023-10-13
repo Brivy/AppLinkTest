@@ -24,6 +24,8 @@
 
             document.getElementById('currentRequest').textContent = currentURL;
             document.getElementById('previousRequest').textContent = previousURL;
+            document.getElementById('currentRequest').setAttribute("href", currentURL);
+            document.getElementById('previousRequest').setAttribute("href", previousURL);
 
             // Store the current URL as the previous request for the next visit
             localStorage.setItem('previousRequest', currentURL);
