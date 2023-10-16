@@ -5,20 +5,7 @@
             "appIDs": [
                "com.groenendijk.dragerapp"
             ],
-            "components": [
-               {
-                  "#": "no_universal_links",
-                  "exclude": true,
-                  "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
-               },
-               {
-                  "/": "/logout",
-                  "?": {
-                     "state": "*"
-                  },
-                  "comment": "Matches any URL with a path of /logout and has a query parameter 'auth' with any value."
-               }
-            ]
+            "paths": ["*"]
          }
       ]
    },
