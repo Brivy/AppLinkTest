@@ -1,9 +1,11 @@
 {
-  "applinks": {
+   "applinks": {
       "details": [
-           {
-             "appIDs": [ "com.groenendijk.dragerapp" ],
-             "components": [
+         {
+            "appIDs": [
+               "com.groenendijk.dragerapp"
+            ],
+            "components": [
                {
                   "#": "no_universal_links",
                   "exclude": true,
@@ -11,13 +13,18 @@
                },
                {
                   "/": "/logout",
-                  "comment": "Matches any URL with a path that starts with /logout."
+                  "?": {
+                     "state": "*"
+                  },
+                  "comment": "Matches any URL with a path of /logout and has a query parameter 'auth' with any value."
                }
-             ]
-           }
-       ]
+            ]
+         }
+      ]
    },
    "webcredentials": {
-      "apps": [ "com.groenendijk.dragerapp" ]
+      "apps": [
+         "com.groenendijk.dragerapp"
+      ]
    }
 }
