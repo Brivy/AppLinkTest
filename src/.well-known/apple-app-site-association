@@ -1,0 +1,23 @@
+{
+  "applinks": {
+      "details": [
+           {
+             "appIDs": [ "com.groenendijk.dragerapp" ],
+             "components": [
+               {
+                  "#": "no_universal_links",
+                  "exclude": true,
+                  "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
+               },
+               {
+                  "/": "/logout",
+                  "comment": "Matches any URL with a path that starts with /logout."
+               }
+             ]
+           }
+       ]
+   },
+   "webcredentials": {
+      "apps": [ "com.groenendijk.dragerapp" ]
+   }
+}
