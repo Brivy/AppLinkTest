@@ -7,8 +7,8 @@
             ],
             "components": [
                {
-                  "/": "/test/*",
-                  "comment": "Matches any URL with a path that starts with /test/."
+                  "/": "/logout/*",
+                  "comment": "Matches any URL with a path that starts with /logout/."
                }
             ]
          }
