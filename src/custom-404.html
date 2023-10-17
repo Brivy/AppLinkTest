@@ -27,8 +27,11 @@
             document.getElementById('currentRequest').setAttribute("href", currentURL);
             document.getElementById('previousRequest').setAttribute("href", previousURL);
 
-            // Store the current URL as the previous request for the next visit
-            localStorage.setItem('previousRequest', currentURL);
+            if (currentURL !== previousURL && previousURL !== 'None') {
+                localStorage.setItem('previousRequest', currentURL);
+                window.location.reload();
+                return;
+            }
         });
     </script>
 </body>
