@@ -7,7 +7,8 @@
       "namespace": "android_app",
       "package_name": "com.groenendijk",
       "sha256_cert_fingerprints": [
-        "FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C"
+        "FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C",
+        "87:8F:DA:E4:B3:3D:72:72:ED:68:F7:85:3C:82:0C:38:9A:55:AB:9D:DD:B1:C8:AB:B6:CE:4E:B4:01:8E:DA:81"
       ]
     }
   }
