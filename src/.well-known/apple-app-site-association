@@ -9,6 +9,14 @@
                {
                   "/": "/external-login/*",
                   "comment": "Matches any URL with a path that starts with /external-login/."
+               },
+               {
+                  "/": "/logout/*",
+                  "comment": "Matches any URL with a path that starts with /logout/."
+               },
+               {
+                  "/": "/test/*",
+                  "comment": "Matches any URL with a path that starts with /test/."
                }
             ]
          }
